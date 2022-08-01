@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioGain - Standalone Plugin", "AudioGain_StandalonePlugin.vcxproj", "{8DD0D67B-E48B-F08E-72E3-3F7CB81FB920}"
+	ProjectSection(ProjectDependencies) = postProject
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52} = {573605ED-EBBC-D12B-94BB-30A4ACE1FB52}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioGain - VST3", "AudioGain_VST3.vcxproj", "{3E3BF6D0-2743-694F-D0C5-8D4F10CB296A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52} = {573605ED-EBBC-D12B-94BB-30A4ACE1FB52}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioGain - Shared Code", "AudioGain_SharedCode.vcxproj", "{573605ED-EBBC-D12B-94BB-30A4ACE1FB52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E3BF6D0-2743-694F-D0C5-8D4F10CB296A}.Debug|x64.ActiveCfg = Debug|x64
+		{3E3BF6D0-2743-694F-D0C5-8D4F10CB296A}.Debug|x64.Build.0 = Debug|x64
+		{3E3BF6D0-2743-694F-D0C5-8D4F10CB296A}.Release|x64.ActiveCfg = Release|x64
+		{3E3BF6D0-2743-694F-D0C5-8D4F10CB296A}.Release|x64.Build.0 = Release|x64
+		{8DD0D67B-E48B-F08E-72E3-3F7CB81FB920}.Debug|x64.ActiveCfg = Debug|x64
+		{8DD0D67B-E48B-F08E-72E3-3F7CB81FB920}.Debug|x64.Build.0 = Debug|x64
+		{8DD0D67B-E48B-F08E-72E3-3F7CB81FB920}.Release|x64.ActiveCfg = Release|x64
+		{8DD0D67B-E48B-F08E-72E3-3F7CB81FB920}.Release|x64.Build.0 = Release|x64
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52}.Debug|x64.ActiveCfg = Debug|x64
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52}.Debug|x64.Build.0 = Debug|x64
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52}.Release|x64.ActiveCfg = Release|x64
+		{573605ED-EBBC-D12B-94BB-30A4ACE1FB52}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
